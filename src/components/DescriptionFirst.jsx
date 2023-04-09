@@ -21,6 +21,18 @@ export default function DescriptionFirst() {
               Part of Speech ประเภทคำในภาษาอังกฤษ แต่ละแบบมีวิธีดูยังไง
               ให้ทำโจทย์ได้เร็ว!
             </li>
+            <li class="text-center">
+              Part of Speech ประเภทคำในภาษาอังกฤษ แต่ละแบบมีวิธีดูยังไง
+              ให้ทำโจทย์ได้เร็ว!
+            </li>
+            <li class="text-center">
+              Part of Speech ประเภทคำในภาษาอังกฤษ แต่ละแบบมีวิธีดูยังไง
+              ให้ทำโจทย์ได้เร็ว!
+            </li>
+            <li class="text-center">
+              Part of Speech ประเภทคำในภาษาอังกฤษ แต่ละแบบมีวิธีดูยังไง
+              ให้ทำโจทย์ได้เร็ว!
+            </li>
           </ul>
         </div>
       </Typography>

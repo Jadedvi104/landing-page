@@ -1,6 +1,7 @@
 import { Typography } from "@material-tailwind/react";
 import React from "react";
 import Countdown from "react-countdown";
+import { Progress } from "@material-tailwind/react";
 
 // Random component
 const Completionist = () => <span>Tims's up!</span>;
@@ -27,6 +28,9 @@ function CountdownTimer() {
         <Typography variant="h1" color="blue" textGradient>
           โปรโมชั่นจะหมดในอีก
         </Typography>
+      </div>
+      <div>
+        <Progress value={63} label="Completed" color="red" />
       </div>
       <div class="flex justify-center">
         <Countdown date={Date.now() + 1000000000} renderer={renderer} />

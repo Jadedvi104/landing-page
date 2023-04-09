@@ -21,28 +21,11 @@ import {
             <Input size="lg" label="Email" />
             <Input type="password" size="lg" label="Password" />
           </div>
-          <Checkbox
-            label={
-              (
-                <Typography
-                  variant="small"
-                  color="gray"
-                  className="flex items-center font-normal"
-                >
-                  I agree the
-                  <a
-                    href="#"
-                    className="font-medium transition-colors hover:text-blue-500"
-                  >
-                    &nbsp;Terms and Conditions
-                  </a>
-                </Typography>
-              )
-            }
-            containerProps={{ className: "-ml-2.5" }}
-          />
-          <Button className="mt-6" fullWidth>
+          <Button className="mt-6" color="green" fullWidth>
             Register
+          </Button>
+          <Button className="mt-6" fullWidth>
+            Test
           </Button>
         </form>
       </Card>

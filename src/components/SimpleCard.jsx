@@ -15,7 +15,7 @@ export default function SimpleCard() {
       grid 
       h-[40rem] 
       w-full 
-      max-w-[50rem] 
+      max-w-[full] 
       items-end 
       justify-center 
       overflow-hidden 
